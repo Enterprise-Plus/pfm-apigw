@@ -1,3 +1,3 @@
 module github.com/enterprise-plus/pfm-apigw
 
-go 1.24
+go 1.19
