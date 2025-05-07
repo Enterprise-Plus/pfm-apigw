@@ -1,0 +1,14 @@
+displayName: API Gateway plugin
+description: |
+  This plugin reads `X-Tenant` header and rewrites the request host so that it will forward it to the correct tenant.
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/enterprise-plus/pfm-apigw
+
+summary: '[API Gateway] Route request to secific tenant'
+
+testData:
+  Headers:
+    X-Demo: test
+    X-URL: '{{URL}}'
