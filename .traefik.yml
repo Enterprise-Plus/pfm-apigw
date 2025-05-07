@@ -4,7 +4,7 @@ description: |
 type: middleware
 iconPath: .assets/icon.png
 
-import: github.com/enterprise-plus/pfm-apigw
+import: github.com/Enterprise-Plus/pfm-apigw
 
 summary: '[API Gateway] Route request to secific tenant'
 
